@@ -28,14 +28,15 @@
     margin-top: 0;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 361px) and (max-width: 767px) {
     .container {
         padding: 0;
     }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 360px) {
     .container {
-        width: 400px;
+        width: 420px;
+        overflow: hidden;
     }
 }
