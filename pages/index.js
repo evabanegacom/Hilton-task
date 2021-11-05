@@ -42,6 +42,11 @@ export default function Home() {
             width: 100%;
             margin: 30px 0 0;
         }
+
+        @media only screen and (min-width: 769px) and (max-width: 1024px) {
+            width: 100%;
+            margin: 30px 0 0;
+        }
     `;
 
     const HiltonSecond = styled.div`
@@ -71,6 +76,35 @@ export default function Home() {
 
             h2 {
                 font-size: 15px;
+            }
+
+            .hotel {
+                width: 70%;
+            }
+        }
+
+        @media only screen and (min-width: 769px) and (max-width: 1024px) {
+            width: 100%;
+            margin: 30px 0 0;
+
+            .hotel {
+                width: 70%;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .pl-40 {
+                padding: 0px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                margin-top: 20px;
             }
         }
     `;
@@ -152,7 +186,7 @@ export default function Home() {
                         <div className="rounded-full w-20 h-20 p-2 flex items-center justify-center bg-white">
                             <img src="/logo.png" className="w-18 h-18 rounded-full" />
                         </div>
-                        <div className="ml-4 text-center border border-white">
+                        <div className="ml-4 text-center border border-white  hotel">
                             <h1 className="head-t font-bold font-mono tracking-wide px-3">
                                 HILTON HOTEL
                             </h1>
