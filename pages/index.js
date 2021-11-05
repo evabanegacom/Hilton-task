@@ -34,7 +34,6 @@ export default function Home() {
         @media only screen and (max-width: 767px) {
             display: flex;
             justify-content: space-between;
-
             .px-2 {
                 padding-right: 0;
                 padding-left: 1.5em;
@@ -51,7 +50,7 @@ export default function Home() {
 
         @media only screen and (min-width: 769px) and (max-width: 1024px) {
             width: 100%;
-            margin: 30px 0 0;
+            margin: 30px auto 0;
         }
     `;
 
