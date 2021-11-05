@@ -29,22 +29,24 @@
     margin-top: 0;
 }
 
-@media only screen and (min-width: 361px) and (max-width: 767px) {
+@media only screen and (min-width: 401px) and (max-width: 767px) {
     .container {
         padding: 0;
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 360px) and (max-width: 361px) {
     .container {
         width: 420px;
         overflow: hidden;
-        max-height: 100vh;
+        min-height: 116.6vh;
     }
 }
 
-@media screen and (device-aspect-ratio: 40/71) {
+@media only screen and (max-width: 320px) {
     .container {
-        height: 100vh;
+        width: 420px;
+        overflow: hidden;
+        min-height: 131vh;
     }
 }
