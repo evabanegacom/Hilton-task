@@ -11,6 +11,7 @@
     background-image: url('/bgimage.png');
     background-repeat: no-repeat;
     background-size: cover, 90%;
+    overflow: hidden;
 }
 .navtext {
     font-size: 0.9rem;
@@ -38,5 +39,12 @@
     .container {
         width: 420px;
         overflow: hidden;
+        max-height: 100vh;
+    }
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+    .container {
+        height: 100vh;
     }
 }
